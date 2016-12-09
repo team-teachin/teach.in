@@ -21,7 +21,7 @@ import { postStudentPhoto, getStudentPhoto } from '../../actions/student_profile
   render () {
     var picture;
     if (this.props.studentInformation) {
-      picture = this.props.studentInformation.picture_url;
+      picture = this.props.studentInformation;
     } else {
       picture = '';
     };
